@@ -5,13 +5,14 @@ import javax.swing.JOptionPane;
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
+ * @author      Lane Schultz
  * @version     1.00
  */
 public class IntroToProgrammingCourse implements CollegeProgrammingCourse {
     private String courseName;
     private String courseNumber;
     private double credits;
+    private String prerequisites;
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
@@ -61,6 +62,15 @@ public class IntroToProgrammingCourse implements CollegeProgrammingCourse {
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+    
+   
+    public void setPrerequisites(String prerequisites) {
+        this.prerequisites = prerequisites;
+    }
+
+    public String getPrerequisites() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     
