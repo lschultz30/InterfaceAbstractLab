@@ -22,5 +22,5 @@ public interface CollegeProgrammingCourse {
     
     public String getCourseName();
     
-    
+    public String getPrerequisites();
 }
