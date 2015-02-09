@@ -44,15 +44,15 @@ public abstract class CollegeProgramingCourse {
     }
     
     //Getters for the Course Name, Course Number, and Credits
-    public final String getCourseName() {
+    public String getCourseName() {
         return courseName;
     }
     
-    public final String getCourseNumber() {
+    public String getCourseNumber() {
         return courseNumber;
     }
     
-    public final double getCredits() {
+    public double getCredits() {
         return credits;
     }
     
