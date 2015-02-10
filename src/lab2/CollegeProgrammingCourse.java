@@ -16,6 +16,8 @@ public interface CollegeProgrammingCourse {
     
     public void setCourseNumber(String courseNumber);
     
+    public void setPrerequisites(String courseName);
+    
     public double getCredits();
     
     public String getCourseNumber();

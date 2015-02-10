@@ -17,6 +17,7 @@ public class IntroToProgrammingCourse implements CollegeProgrammingCourse {
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
+        this.prerequisites=(courseName);
     }
 
     
@@ -63,15 +64,12 @@ public class IntroToProgrammingCourse implements CollegeProgrammingCourse {
         }
         this.courseName = courseName;
     }
-    
-   
-    public void setPrerequisites(String prerequisites) {
+
+     public void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }
-
+     
     public String getPrerequisites() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return prerequisites;
     }
-
-    
 }
