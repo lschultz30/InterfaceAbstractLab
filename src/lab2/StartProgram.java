@@ -22,6 +22,7 @@ public class StartProgram {
         advJava.setPrerequisites("Intro to Java");
         introJava.setPrerequisites("Intro to Programming");
         
+        
         //Displays the Course information
          System.out.println(advJava.getCourseName() + " " + 
                  advJava.getCourseNumber() + " " + advJava.getPrerequisites());

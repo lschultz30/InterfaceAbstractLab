@@ -23,7 +23,7 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         return courseNumber;
     }
 
-    @Override
+
     public void setCourseNumber(String courseNumber) {
         if(courseNumber == null || courseNumber.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -33,12 +33,12 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         this.courseNumber = courseNumber;
     }
 
-    @Override
+
     public double getCredits() {
         return credits;
     }
 
-    @Override
+
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,
@@ -61,12 +61,12 @@ public class AdvancedJavaCourse implements CollegeProgrammingCourse {
         this.prerequisites = prerequisites;
     }
 
-    @Override
+
     public String getCourseName() {
         return courseName;
     }
 
-    @Override
+
     public void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
